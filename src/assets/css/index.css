@@ -1,0 +1,17 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+.img1 {
+  border: 1px solid green;
+  width: 200px;
+  height: 200px;
+  background-image: url('../imgs/img1.jpg');
+}
+.img2 {
+  border: 1px solid pink;
+  width: 200px;
+  height: 200px;
+  background-image: url('../imgs/img2.png');
+}
