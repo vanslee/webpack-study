@@ -10,3 +10,4 @@ function count(...arg) {
   console.log(arg[0] + arg[1])
 }
 count(1, 2)
+// util()()

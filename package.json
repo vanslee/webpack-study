@@ -4,8 +4,8 @@
   "description": "This is a project which to study webpack",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --config ./webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "cross-env NODE_ENV=development webpack serve --config ./webpack.config.js",
+    "test": "cross-env NODE_ENV=production echo \"Error: no test specified\" && exit 1"
   },
   "author": "lidengxiang",
   "license": "ISC",
